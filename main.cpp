@@ -14,7 +14,7 @@ void nrandom(vector<int>&n){
   num=1+rand()%(101-1);
   n.push_back(num);
 
-  while(n.size()!=0){
+  if(n.size()!=0){
     
     for(int i=0;i<n.size();i++){
       if(n[i]==num){
